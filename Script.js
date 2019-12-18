@@ -4,8 +4,8 @@ var two = player.GetVar("var_2");
 var three = player.GetVar("var_3");
 var four = player.GetVar("var_4");
 
-function lwrcs (x) {
-var y=x.toLowerCase();
+function upprcs (x) {
+var y=x.toUpperCase();
 return y;
 }
 
